@@ -1,0 +1,152 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="424907369" file="/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)/OME_3DR.prj" location="/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)" name="OME_3DR" preferred-package-location="/Users/mac/Desktop/OME-3DR/Source(version5.3)/OME_3DR(version5.3)/OME_3DR/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>OME_3DR</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>5.4</param.version>
+    <param.authnamewatermark>GuangLi</param.authnamewatermark>
+    <param.email>rwwb@foxmail.com</param.email>
+    <param.company>GuangLi_IBP_and_Hzau_Chinese</param.company>
+    <param.summary>@OME_3DR:
+	the tool for OME(Open Microscopy Environment)-3-DimensionalRestruction
+	OME_D3R.ZNL7.TAQINGBILU
+@IBP
+@2018.01.01</param.summary>
+    <param.description>&gt;&gt;&gt;TAQINGBILU SERIES
+	RWWB
+	GMDT
+	ZNL7
+	TQBL
+
+&gt;&gt;&gt;GMDT
+	the method for inputing
+&gt;&gt;&gt;ZNL7 Series:
+	(1)ZNL7
+		the tool for sequence match
+	(2)Catcher
+		the tool for document match
+	(3)ATPattern
+		the analysis of transcription patterns
+	(4)OME_3DR
+		the tool for OME(Open Microscopy Environment)-3-DimensionalRestruction</param.description>
+    <param.screenshot>${PROJECT_ROOT}/ZNL7_splash.gif</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/GuangLi_IBP_and_Hzau_Chinese/OME_3DR/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}/ZNL7_logo.jpg</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}/OME_3DR/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/OME_3DR/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/OME_3DR/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>OME_3DR_web</param.web.mcr.name>
+    <param.package.mcr.name>OME_D3R_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/OME_3DR.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/OME_3DR.fig</file>
+      <file>${PROJECT_ROOT}/bioformats</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}/ZNL7_icon.ico</file>
+      <file>${PROJECT_ROOT}/ZNL7_logo.jpg</file>
+      <file>${PROJECT_ROOT}/ZNL7_splash.gif</file>
+    </fileset.package>
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/OME_3DR/for_testing" name="readme.txt" optional="true">/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)/OME_3DR/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/OME_3DR/for_testing" name="splash.png" optional="false">/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)/OME_3DR/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/OME_3DR/for_testing" name="run_OME_3DR.sh" optional="false">/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)/OME_3DR/for_testing/run_OME_3DR.sh</file>
+      <file location="${PROJECT_ROOT}/OME_3DR/for_testing" name="OME_3DR.app" optional="false">/Users/mac/Desktop/OME-3DR/Source(version5.4)/OME_3DR(version5.4)/OME_3DR/for_testing/OME_3DR.app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015b.app</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.13.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
